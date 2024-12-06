@@ -46,7 +46,8 @@ header {
     font-family: 'Protest Strike';
     font-size: 3em;
     font-style: italic;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 header {
@@ -109,13 +110,13 @@ img#hero-img {
 
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 3/3;
+    grid-row: 1/2;
     margin-top: 100px;
 }
 
 #hero-msg h1 {
     text-align: center;
-
+    color: #3AAFB9
 }
 
 h2 {
@@ -314,11 +315,13 @@ footer p a:hover {
     }
 
     #hero-msg h1 {
-        color: #6f7364;
+        color: #3AAFB9;
+        font-size: 40px;
     }
 
     .home-title {
-        font-size: 25px;
+        font-size: 40px;
+        margin: 30px;
     }
 
     .rivers-card,
