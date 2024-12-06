@@ -1,0 +1,10 @@
+.icon {
+    border-radius: 50%;
+    border: 15px solid #555555;
+    width: 18em;
+}
+#header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
