@@ -1,0 +1,291 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #3AAFB9;
+    --secondary-color: #4A4A4A;
+    --accent1-color: #6AC1D9;
+    --accent2-color: #ffff;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Protest Strike";
+    --paragraph-font: "Titillium Web";
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #3AAFB9;
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #3AAFB9;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #3AAFB9;
+    --nav-link-color: #6AC1D9;
+    --nav-background-color: #4A4A4A;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #3AAFB9;
+}
+
+div#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.home-title {
+    font-family: 'Protest Strike';
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+header {
+    background-color: #6AC1D9;
+}
+
+nav a:hover {
+    background-color: #3AAFB9;
+    color: #fcfbfb;
+}
+
+nav a {
+    font-family: 'Protest Strike';
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--accent1-color);
+    text-align: center;
+    color: #fcfbfb;
+    padding: 1.5em;
+    text-decoration: none;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 120px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+    ;
+}
+
+h2 {
+    font-size: 5em;
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+
+}
+
+img.banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Pro;
+}
+
+h2 {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    margin-bottom: 20px;
+    font-family: 'Protest Strike';
+
+}
+
+#background {
+    height: 725px;
+    background-color: #3AAFB9;
+}
+
+body {
+    background-color: #4A4A4A;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: #6AC1D9;
+    text-size-adjust: 20em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+div#river1 {
+    margin: 200px 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 1em;
+}
+
+img.river1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 300px;
+    object-fit: cover;
+}
+
+div#river2 {
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 1em;
+}
+
+img.river2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    height: 300px;
+    object-fit: cover;
+}
+
+div#river3 {
+    margin: 200px 0;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 1em;
+}
+
+img.river3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+    height: 300px;
+    object-fit: cover;
+}
+
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+footer {
+    background-color: #3AAFB9;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    background-color: #3AAFB9;
+    color: #fcfbfb;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    div#river1,
+    div#river2,
+    div#river3 {
+        margin: 50px auto;
+        width: 60%;
+    }
+
+    #background {
+        display: none;
+    }
+
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
